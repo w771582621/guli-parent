@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e56e120-ddff-447a-98db-2deb5d15db3e" name="Changes" comment="提交">
+      <change beforePath="$PROJECT_DIR$/service/service-oss/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-oss/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\maven-3.9.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2aQTpg6FmYkclT6U4JblQXMuB7z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/wanglei/Desktop/guli-parent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "spring.configuration.checksum": "cefbf5a5253a34ff3aa578be1d731375",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EduApplication">
+    <configuration name="TestEasyExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wl.eduservice.excel.TestEasyExcel" />
+      <module name="service-edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wl.eduservice.excel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeGenerator.main1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wl.eduservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wl.eduservice" />
+      <option name="MAIN_CLASS_NAME" value="com.wl.eduservice.CodeGenerator" />
+      <option name="METHOD_NAME" value="main1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEasyExcel.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wl.eduservice.excel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wl.eduservice.excel" />
+      <option name="MAIN_CLASS_NAME" value="com.wl.eduservice.excel.TestEasyExcel" />
+      <option name="METHOD_NAME" value="read" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-edu" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wl.edu.EduApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wl.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-oss" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wl.oss.OssApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EduApplication" />
+        <item itemvalue="Spring Boot.OssApplication" />
+        <item itemvalue="JUnit.CodeGenerator.main1" />
+        <item itemvalue="JUnit.TestEasyExcel.read" />
+        <item itemvalue="Application.TestEasyExcel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e56e120-ddff-447a-98db-2deb5d15db3e" name="Changes" comment="" />
+      <created>1704249988335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704249988335</updated>
+      <workItem from="1704249989804" duration="396000" />
+      <workItem from="1704250396130" duration="3549000" />
+      <workItem from="1705575797312" duration="347000" />
+      <workItem from="1705584819439" duration="3477000" />
+      <workItem from="1705652596000" duration="209000" />
+      <workItem from="1705652829849" duration="102000" />
+      <workItem from="1705653213779" duration="1513000" />
+      <workItem from="1708074177102" duration="1072000" />
+      <workItem from="1708085029103" duration="105000" />
+      <workItem from="1708085139927" duration="137000" />
+      <workItem from="1708250756410" duration="32000" />
+      <workItem from="1708251153567" duration="5856000" />
+      <workItem from="1708334303002" duration="7648000" />
+      <workItem from="1708351936190" duration="78000" />
+      <workItem from="1708409510751" duration="2311000" />
+      <workItem from="1708507685686" duration="42000" />
+      <workItem from="1709002662069" duration="843000" />
+      <workItem from="1709020221396" duration="9979000" />
+      <workItem from="1709269090080" duration="11389000" />
+      <workItem from="1709361086051" duration="14841000" />
+      <workItem from="1709452102915" duration="16995000" />
+      <workItem from="1709623068242" duration="11560000" />
+      <workItem from="1709691310779" duration="10920000" />
+      <workItem from="1709776684702" duration="14743000" />
+      <workItem from="1709882879856" duration="8541000" />
+      <workItem from="1710054958101" duration="4225000" />
+      <workItem from="1710144432707" duration="145000" />
+      <workItem from="1710297529962" duration="2432000" />
+      <workItem from="1710311773174" duration="1131000" />
+      <workItem from="1710314152469" duration="12000" />
+      <workItem from="1710314169478" duration="133000" />
+      <workItem from="1710314308180" duration="39000" />
+      <workItem from="1710314358421" duration="68000" />
+      <workItem from="1710314834434" duration="166000" />
+      <workItem from="1710315025108" duration="326000" />
+      <workItem from="1710315356685" duration="1168000" />
+    </task>
+    <task id="LOCAL-00001" summary="无">
+      <option name="closed" value="true" />
+      <created>1710311553136</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710311553136</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交">
+      <option name="closed" value="true" />
+      <created>1710315699140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710315699140</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="无" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.apache.ibatis.binding.BindingException" package="org.apache.ibatis.binding" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.alibaba.excel.exception.ExcelAnalysisException" package="com.alibaba.excel.exception" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
