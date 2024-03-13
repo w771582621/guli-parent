@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e56e120-ddff-447a-98db-2deb5d15db3e" name="Changes" comment="修改oss">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0e56e120-ddff-447a-98db-2deb5d15db3e" name="Changes" comment="修改oss" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +195,7 @@
       <workItem from="1710314358421" duration="68000" />
       <workItem from="1710314834434" duration="166000" />
       <workItem from="1710315025108" duration="326000" />
-      <workItem from="1710315356685" duration="2322000" />
+      <workItem from="1710315356685" duration="2411000" />
     </task>
     <task id="LOCAL-00001" summary="无">
       <option name="closed" value="true" />
@@ -239,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710316848029</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改oss">
+      <option name="closed" value="true" />
+      <created>1710317708175</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710317708175</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
