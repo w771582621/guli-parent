@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e56e120-ddff-447a-98db-2deb5d15db3e" name="Changes" comment="提交">
-      <change beforePath="$PROJECT_DIR$/service/service-oss/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-oss/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="0e56e120-ddff-447a-98db-2deb5d15db3e" name="Changes" comment="修改oss">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +197,7 @@
       <workItem from="1710314358421" duration="68000" />
       <workItem from="1710314834434" duration="166000" />
       <workItem from="1710315025108" duration="326000" />
-      <workItem from="1710315356685" duration="1168000" />
+      <workItem from="1710315356685" duration="2322000" />
     </task>
     <task id="LOCAL-00001" summary="无">
       <option name="closed" value="true" />
@@ -215,7 +215,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710315699140</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改oss">
+      <option name="closed" value="true" />
+      <created>1710316565869</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710316565869</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改oss">
+      <option name="closed" value="true" />
+      <created>1710316576256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710316576256</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改oss">
+      <option name="closed" value="true" />
+      <created>1710316848029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710316848029</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +265,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="无" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="修改oss" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改oss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
