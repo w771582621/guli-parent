@@ -1,4 +1,4 @@
-package com.wl.oss;
+package com.wl.vod;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,8 +9,8 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 @ComponentScan(basePackages = {"com.wl"})
 @EnableDiscoveryClient
-public class OssApplication {
+public class VodApplication {
     public static void main(String[] args) {
-        SpringApplication.run(OssApplication.class,args);
+        SpringApplication.run(VodApplication.class, args);
     }
 }

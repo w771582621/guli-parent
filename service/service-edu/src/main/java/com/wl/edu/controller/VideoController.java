@@ -30,10 +30,10 @@ public class VideoController {
     }
 
     //删除小节
-    //TODO 后面这个方法要完善:删除小节的时候,同时删除里面的视频
+    //删除小节的时候,同时删除里面的视频
     @DeleteMapping("{id}")
     public R deleteVideo(@PathVariable String id){
-        videoService.removeById(id);
+        videoService.deleteVideoAndAlyVideo(id);
         return R.ok();
     }
 

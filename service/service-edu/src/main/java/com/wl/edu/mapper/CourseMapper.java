@@ -4,6 +4,8 @@ import com.wl.edu.entity.Course;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.wl.edu.entity.vo.PublishCourseVo;
 
+import java.util.List;
+
 /**
  * <p>
  * 课程 Mapper 接口
@@ -15,5 +17,7 @@ import com.wl.edu.entity.vo.PublishCourseVo;
 public interface CourseMapper extends BaseMapper<Course> {
 
     PublishCourseVo getPublishCourseVo(String id);
+
+    List<String > getAllAlVideos(String courseId);
 
 }

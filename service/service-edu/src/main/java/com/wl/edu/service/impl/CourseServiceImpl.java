@@ -2,20 +2,23 @@ package com.wl.edu.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.wl.edu.entity.Course;
-import com.wl.edu.entity.CourseDescription;
-import com.wl.edu.entity.CourseQuery;
+import com.wl.edu.client.VodClient;
+import com.wl.edu.entity.*;
 import com.wl.edu.entity.vo.CourceInfoVo;
 import com.wl.edu.entity.vo.PublishCourseVo;
 import com.wl.edu.mapper.CourseMapper;
+import com.wl.edu.service.ChapterService;
 import com.wl.edu.service.CourseDescriptionService;
 import com.wl.edu.service.CourseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.wl.edu.service.VideoService;
 import com.wl.servicebase.exception.GuliException;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
+
+import java.util.List;
 
 /**
  * <p>
@@ -30,6 +33,14 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
 
     @Autowired
     private CourseDescriptionService courseDescriptionService;
+    @Autowired
+    private VodClient vodClient;
+    @Autowired
+    private VideoService videoService;
+    @Autowired
+    private ChapterService chapterService;
+
+
     @Override
     public String saveCourceInfo(CourceInfoVo courceInfoVo) {
         //向课程表添加课程基本信息
@@ -118,4 +129,22 @@ public class CourseServiceImpl extends ServiceImpl<CourseMapper, Course> impleme
         baseMapper.selectPage(pageParam,wrapper);
 
     }
+
+    @Override
+    public void deleteCourse(String id) {
+        //删除课程对应的所有视频
+        List<String> alVideoIds = baseMapper.getAllAlVideos(id);
+        vodClient.deleteVideos(alVideoIds);
+        //删除所有小节
+        QueryWrapper<Video> wrapper = new QueryWrapper<>();
+        wrapper.eq("course_id",id);
+        videoService.remove(wrapper);
+        //删除所有章节
+        QueryWrapper<Chapter> chapterQueryWrapper = new QueryWrapper<>();
+        chapterQueryWrapper.eq("course_id",id);
+        chapterService.remove(chapterQueryWrapper);
+        //删除该课程
+        baseMapper.deleteById(id);
+    }
+
 }

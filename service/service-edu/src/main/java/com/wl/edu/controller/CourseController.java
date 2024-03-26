@@ -78,5 +78,11 @@ public class CourseController {
         long total = pageParam.getTotal();
         return R.ok().data("records",records).data("total",total);
     }
+
+    @DeleteMapping("deleteCourse/{id}")
+    public R deleteCourse(@PathVariable("id") String id){
+        courseService.deleteCourse(id);
+        return R.ok();
+    }
 }
 

@@ -20,4 +20,11 @@
         WHERE ec.id = #{id}
 
     </select>
+
+    <select id="getAllAlVideos" resultType="java.lang.String">
+        SELECT
+            video_source_id
+        FROM edu_video
+        WHERE course_id = #{courseId}
+    </select>
 </mapper>

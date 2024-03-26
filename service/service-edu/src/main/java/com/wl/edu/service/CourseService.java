@@ -26,4 +26,6 @@ public interface CourseService extends IService<Course> {
     PublishCourseVo getPublishCourseInfo(String id);
 
     void getCoursePage(Page<Course> pageParam, CourseQuery query);
+
+    void deleteCourse(String id);
 }
