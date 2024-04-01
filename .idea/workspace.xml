@@ -5,42 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e56e120-ddff-447a-98db-2deb5d15db3e" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/service-cms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-vod.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-cms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/educms/CmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/educms/controller/BannerFrontController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-cms/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-cms/src/test/java/com/wl/codeGenerator/CodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/client/VodClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/client/VodFileDegradeFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-vod/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-vod/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-vod/src/main/java/com/wl/vod/VodApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-vod/src/main/java/com/wl/vod/controller/VodController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-vod/src/main/java/com/wl/vod/service/VodService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-vod/src/main/java/com/wl/vod/service/impl/VodServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-vod/src/main/java/com/wl/vod/util/ConstantPropertiesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-vod/src/main/java/com/wl/vod/util/InitObiect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-utils/src/main/java/com/wl/commonutils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-utils/src/main/java/com/wl/commonutils/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-base/src/main/java/com/wl/servicebase/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-msm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ucenter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/cms/controller/BannerAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/cms/controller/BannerFrontController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/cms/entity/CrmBanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/cms/mapper/CrmBannerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/cms/mapper/xml/CrmBannerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/cms/service/CrmBannerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/cms/service/impl/CrmBannerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/controller/HotInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-msm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-msm/src/main/java/com/wl/msm/MsmApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-msm/src/main/java/com/wl/msm/config/PropertyGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-msm/src/main/java/com/wl/msm/controller/MsmController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-msm/src/main/java/com/wl/msm/service/MsmService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-msm/src/main/java/com/wl/msm/service/impl/MsmServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-msm/src/main/java/com/wl/msm/utils/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-msm/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/wl/ucenter/UcenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/wl/ucenter/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/wl/ucenter/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/wl/ucenter/entity/vo/RegisterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/wl/ucenter/mapper/MemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/wl/ucenter/mapper/xml/MemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/wl/ucenter/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/java/com/wl/ucenter/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-ucenter/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-vod/src/main/resources/aliyun-java-vod-upload-1.4.15.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/service/service-vod/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-vod/src/test/java/com/wl/vod/test/InitObiect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/EduApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/EduApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/mapper/CourseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/mapper/xml/CourseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/mapper/xml/CourseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/service/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/service/impl/VideoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-oss/src/main/java/com/wl/oss/OssApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-oss/src/main/java/com/wl/oss/OssApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/educms/CmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/cms/CmsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cms/src/main/java/com/wl/educms/controller/BannerFrontController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-cms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-cms/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/client/VodFileDegradeFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/client/VodFileDegradeFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-oss/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-oss/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,80 +86,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/wanglei/Desktop/files/guli-parent/service/service-vod/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "spring.configuration.checksum": "24372674edfd641c3cc7a2fbea6ad325",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wanglei/Desktop/files/guli-parent/common/common-utils/src/main/java/com/wl/commonutils&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b5561223d188f5d891df1dc6452fee47&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wanglei\Desktop\files\guli-parent\common\common-utils\src\main\java\com\wl\commonutils" />
       <recent name="C:\Users\wanglei\Desktop\files\guli-parent\service\service-vod\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wanglei\Desktop\files\guli-parent\service\service-msm\src\main\java\com\wl\msmservice\utils" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.wl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.wl.codeGenerator" />
       <recent name="com.wl.vod.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CodeGenerator.main1">
+  <component name="RunManager" selected="Spring Boot.UcenterApplication">
     <configuration name="CodeGenerator.main1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-cms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wl.codeGenerator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wl.codeGenerator" />
-      <option name="MAIN_CLASS_NAME" value="com.wl.codeGenerator.CodeGenerator" />
+      <module name="service-ucenter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CodeGenerator" />
       <option name="METHOD_NAME" value="main1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VodSdkTest.uploadVideoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-vod" />
+    <configuration name="CmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-cms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wl.cms.CmsApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wl.vod.test.*" />
+          <option name="PATTERN" value="com.wl.cms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wl.vod.test" />
-      <option name="MAIN_CLASS_NAME" value="com.wl.vod.test.VodSdkTest" />
-      <option name="METHOD_NAME" value="uploadVideoTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="service-oss" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wl.oss.OssApplication" />
+    <configuration name="MsmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-msm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wl.msm.MsmApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wl.oss.*" />
+          <option name="PATTERN" value="com.wl.msm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="service-vod" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wl.vod.VodApplication" />
+    <configuration name="UcenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-ucenter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wl.ucenter.UcenterApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wl.vod.*" />
+          <option name="PATTERN" value="com.wl.ucenter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CodeGenerator.main1" />
+        <item itemvalue="Spring Boot.UcenterApplication" />
+        <item itemvalue="Spring Boot.MsmApplication" />
+        <item itemvalue="Spring Boot.CmsApplication" />
         <item itemvalue="Spring Boot.EduApplication" />
-        <item itemvalue="Spring Boot.VodApplication" />
-        <item itemvalue="Spring Boot.OssApplication" />
-        <item itemvalue="JUnit.VodSdkTest.uploadVideoTest" />
+        <item itemvalue="JUnit.CodeGenerator.main1" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +273,17 @@
       <workItem from="1711177998811" duration="2089000" />
       <workItem from="1711273062509" duration="4332000" />
       <workItem from="1711355116014" duration="680000" />
+      <workItem from="1711419257471" duration="24922000" />
+      <workItem from="1711501601202" duration="938000" />
+      <workItem from="1711583974540" duration="4657000" />
+      <workItem from="1711590719504" duration="4584000" />
+      <workItem from="1711595799242" duration="120000" />
+      <workItem from="1711674929754" duration="6203000" />
+      <workItem from="1711767538863" duration="2742000" />
+      <workItem from="1711853715309" duration="5637000" />
+      <workItem from="1711875355078" duration="3822000" />
+      <workItem from="1711885182114" duration="7111000" />
+      <workItem from="1711936035632" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="无">
       <option name="closed" value="true" />
@@ -340,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710318043957</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary=".">
+      <option name="closed" value="true" />
+      <created>1711419323747</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711419323747</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,11 +410,6 @@
           <properties class="feign.FeignException$NotFound" package="feign" />
           <option name="timeStamp" value="4" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/service/service-edu/src/main/java/com/wl/edu/service/impl/VideoServiceImpl.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

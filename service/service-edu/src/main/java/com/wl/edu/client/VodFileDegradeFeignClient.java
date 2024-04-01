@@ -1,9 +1,11 @@
 package com.wl.edu.client;
 
 import com.wl.commonutils.R;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class VodFileDegradeFeignClient implements VodClient{
     @Override
     public R deleteAlVideo(String id) {

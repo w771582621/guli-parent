@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="service-msm" />
+        <module name="service-edu" />
+        <module name="service-ucenter" />
+        <module name="service-base" />
         <module name="common-utils" />
         <module name="service-oss" />
-        <module name="service-edu" />
-        <module name="service-base" />
         <module name="service-cms" />
         <module name="service-vod" />
       </profile>
@@ -21,7 +23,9 @@
       <module name="service-base" options="-parameters" />
       <module name="service-cms" options="-parameters" />
       <module name="service-edu" options="-parameters" />
+      <module name="service-msm" options="-parameters" />
       <module name="service-oss" options="-parameters" />
+      <module name="service-ucenter" options="-parameters" />
       <module name="service-vod" options="-parameters" />
     </option>
   </component>
